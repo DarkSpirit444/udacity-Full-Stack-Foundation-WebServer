@@ -1,0 +1,54 @@
+#navcontainer
+{
+border-right: 1px solid #000000;
+padding: 0px;  /* menu look*/
+font-family: 'Courier New',Courier,monospace;
+background-color: #d4cfcf;
+}
+
+#navcontainer ul
+{
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+
+#navcontainer li
+{
+
+border-bottom: 1px solid #90bade; /*separator*/
+margin: 0;
+}
+
+#navcontainer li a  /*menu */
+{
+display: block;
+padding: 5px .3em 5px .3em;
+border-left: .3em solid #1958b7;
+border-right: .3em solid #508fc4;
+color: #004963;
+text-decoration: none;
+}
+
+#navcontainer li a:hover  /*behavior on hover */
+{
+background-color: #ffffff;
+color: #ad0000; 
+}
+
+#navcontainer li li   /*sub menu*/
+{   
+border-top: 1px solid #90bade;
+border-bottom: 0;
+margin: 0;
+font-family: 'Courier New',Courier,monospace;
+font-size: 13px;
+}
+
+#    navcontainer li li a  /* sub menu */
+{
+padding: 4px 4px 4px 15px;
+color: #5b6f7b /* light slate color: #00788a  color of text */
+}
+/* navigation menu end */
